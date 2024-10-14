@@ -1,6 +1,6 @@
 public class Prueba {
     public static void main(String[] args) {
-        Auto bmx = new Auto();
+        /*Auto bmx = new Auto();
         bmx.marca = "BMW";
         bmx.modelo = "1537";
         bmx.color = "Blanco";
@@ -31,19 +31,21 @@ public class Prueba {
 
 
         //System.out.println(bicicleta.detallesbici());
-
+        */
         Auto bmw = new Auto();
-        bmw.marca = "BMW";
-        bmw.modelo = "1537";
-        bmw.color = "Negro";
-        bmw.cilindraje = 1234;
+        bmw.setMarca("BMW");
+        bmw.setModelo("1537");
+        bmw.setColor("Negro");
+        bmw.setCilindraje(1234);
 
-        System.out.println("bmw.verdetalle = \n" + bmw.verDetalle());
+        System.out.println("La marca es: " + bmw.getMarca());
+
+        /*System.out.println("bmw.verdetalle = \n" + bmw.verDetalle());
 
         System.out.println("bmw.acelerar = " + bmw.acelerar());
         System.out.println("bmw.fremar = " + bmw.frenar(80));
         System.out.println("bmw.capavodadTamque = " + bmw.capacidadTanque(40, 0.7f));
-        System.out.println("bmw:capacidadtanque = " + bmw.capacidadTanque(40, 90f) );
+        System.out.println("bmw:capacidadtanque = " + bmw.capacidadTanque(40, 90f) );*/
     }
 
 
